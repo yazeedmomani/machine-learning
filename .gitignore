@@ -1,0 +1,31 @@
+# --- Environments ---
+env/
+.venv/
+venv/
+.conda/
+
+# --- Jupyter ---
+**/.ipynb_checkpoints/
+
+# --- Python caches ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# --- Secrets / config ---
+.env
+*.env
+*.secret
+*.key
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs / artifacts ---
+*.log
